@@ -2,7 +2,7 @@ import pymysql
 import datetime, time, sys
 
 def main():
-    conn = pymysql.connect(host='172.17.0.7', user='arcprime', password='slzmfh719', db='sampledb', charset='utf8')
+    conn = pymysql.connect(host='172.17.0.8', user='arcprime', password='slzmfh719', db='sampledb', charset='utf8')
     print ("\n########## Connection Success! ##########")
 
     cursor = conn.cursor()
